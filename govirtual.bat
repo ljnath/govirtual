@@ -4,10 +4,10 @@
 
 @echo off
 SET env_name=pyenv
-SET requirement_file=requirement.txt
+SET requirement_file=requirements.txt
 title GoVirtual 0.1 - %env_name%
 
-IF NOT EXIST %env_name% GOTO :CREATE_ENV
+IF NOT EXIST %env_name%\Scripts GOTO :CREATE_ENV
 
 :SWITCH_ENV
 	call %env_name%\Scripts\activate.bat
