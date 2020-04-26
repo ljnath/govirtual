@@ -3,7 +3,7 @@
 @REM Author: Lakhya Jyoti Nath (ljnath) @ August 2018 | www.ljnath.com
 
 @echo off
-SET env_name=pyenv
+SET env_name=.venv
 SET requirement_file=requirements.txt
 title GoVirtual 0.1 - %env_name%
 

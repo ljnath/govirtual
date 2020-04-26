@@ -6,7 +6,7 @@
 #
 # make sure to have python3 in the PATH variable
 
-ENV_NAME=pyenv
+ENV_NAME=.venv
 REQUIREMENT_FILE=requirements.txt
 
 function create_environment()
